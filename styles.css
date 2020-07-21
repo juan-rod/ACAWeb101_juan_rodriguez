@@ -1,0 +1,15 @@
+nav.main-container {
+  border: 1px solid black;
+  height: 80px;
+
+}
+.logo {
+  border: 1px solid red;
+}
+ul {
+  border: 1px solid blue;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}

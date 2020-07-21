@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+.main-container {
+  background: red;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 10% repeat(4, 1fr);
+  grid-template-rows: 80px 1fr 450px 10%;
+  grid-gap: 10px;
+}
+.main-container p {
+  grid-column: 2/-1;
+  grid-row: 2/3;
+}
